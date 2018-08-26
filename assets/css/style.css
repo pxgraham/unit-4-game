@@ -1,0 +1,36 @@
+.title0 {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 50px; 
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.card {
+    border-radius: 10px 0px 10px 0px;
+}
+.card-header:first-child {
+    border-radius: 10px 0px 0px 0px;
+}
+img {
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+    margin-top: 20px; 
+    width: 200px;
+    height: 200px;   
+}
+img:hover {
+    box-shadow: 10px 10px 10px lightgrey;
+}
+.red {
+    box-shadow: 20px 20px 50px red;
+}
+.blue {
+    box-shadow: 20px 20px 50px blue;
+}
+.yellow {
+    box-shadow: 20px 20px 50px yellow;
+}
+.black {
+    box-shadow: 20px 20px 50px black;
+}
